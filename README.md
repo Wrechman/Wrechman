@@ -142,16 +142,16 @@
     <h2>My Links</h2>
     <ul>
       <li>
-        <a href="https://www.youtube.com/channel/UCoBqZ-Z-wdJifnfe7LzMyfw">YouTube</a>
-        <span class="arrow" style="left: calc(50% - 10px); top: 30px;"></span>
+        <a href="https://www.youtube.com/channel/UCoBqZ-Z-wdJifnfe7LzMyfw" target="_blank">YouTube</a>
+        <span class="arrow"></span>
       </li>
       <li>
-        <a href="https://www.twitch.tv/wrechman_">Twitch</a>
-        <span class="arrow" style="left: calc(50% - 10px); top: 30px;"></span>
+        <a href="https://www.twitch.tv/wrechman_" target="_blank">Twitch</a>
+        <span class="arrow"></span>
       </li>
       <li>
-        <a href="https://www.mariokart64.com/mk64/players/3342">My MK64 Rankings</a>
-        <span class="arrow" style="left: calc(50% - 10px); top: 30px;"></span>
+        <a href="https://www.mariokart64.com/mk64/players/3342" target="_blank">My MK64 Rankings</a>
+        <span class="arrow"></span>
       </li>
     </ul>
     <div class="digital-rain">
