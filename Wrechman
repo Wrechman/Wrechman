@@ -142,32 +142,34 @@
     <h2>My Links</h2>
     <ul>
       <li>
-        <a href="#">YouTube</a>
+        <a href="https://www.youtube.com/channel/UCoBqZ-Z-wdJifnfe7LzMyfw">YouTube</a>
         <span class="arrow" style="left: calc(50% - 10px); top: 30px;"></span>
       </li>
       <li>
-        <a href="#">Twitch</a>
+        <a href="https://www.twitch.tv/wrechman_">Twitch</a>
         <span class="arrow" style="left: calc(50% - 10px); top: 30px;"></span>
       </li>
       <li>
-        <a href="#">My MK64 Rankings</a>
+        <a href="https://www.mariokart64.com/mk64/players/3342">My MK64 Rankings</a>
         <span class="arrow" style="left: calc(50% - 10px); top: 30px;"></span>
       </li>
     </ul>
-    <div class="digital-rain"></div>
-  </div>
-  <script>
-    const characters = "0123456789";
-    const digitCount = 100;
+    <div class="digital-rain">
+      
+      <script>
+        const characters = "0123456789";
+        const digitCount = 100;
 
-    for (let i = 0; i < digitCount; i++) {
-      const digit = document.createElement('span');
-      digit.textContent = characters.charAt(Math.floor(Math.random() * characters.length));
-      digit.classList.add('digit');
-      digit.style.top = `${Math.floor(Math.random() * 100)}vh`;
-      digit.style.left = `${Math.floor(Math.random() * 100)}vw`;
-      document.querySelector('.digital-rain').appendChild(digit);
-    }
-  </script>
+        for (let i = 0; i < digitCount; i++) {
+          const digit = document.createElement('span');
+          digit.textContent = characters.charAt(Math.floor(Math.random() * characters.length));
+          digit.classList.add('digit');
+          digit.style.top = `${Math.floor(Math.random() * 100)}vh`;
+          digit.style.left = `${Math.floor(Math.random() * 100)}vw`;
+          document.querySelector('.digital-rain').appendChild(digit);
+        }
+      </script>
+    </div>
+  </div>
 </body>
 </html>
